@@ -37,3 +37,13 @@ for i in range(1, 5):  # 百位
 4 3 1
 4 3 2
 """
+
+
+# 输入abcd4个整数，计算a+b-c*d的结果
+# a=int(input("请输入第一个数字:"))
+# b=int(input("请输入第一个数字:"))
+# c=int(input("请输入第一个数字:"))
+# d=int(input("请输入第一个数字:"))
+#
+# print(a+b-c*d)
+
