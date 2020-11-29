@@ -57,7 +57,7 @@ print(int(a) + b)
 """
     输入1-127的ASCII码
 """
-chr()将整数转换为字符
+#chr()将整数转换为字符
 number = int(input("请输入数字:"))
 print(chr(number))
 
