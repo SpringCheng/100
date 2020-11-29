@@ -16,12 +16,12 @@ for i in range(1, 5):  # 百位
 """
     输入a b c d 4个整数，计算a+b-c*d的结果
 """
-# a=int(input("请输入第一个数字:"))
-# b=int(input("请输入第一个数字:"))
-# c=int(input("请输入第一个数字:"))
-# d=int(input("请输入第一个数字:"))
-#
-# print(a+b-c*d)
+a=int(input("请输入第一个数字:"))
+b=int(input("请输入第一个数字:"))
+c=int(input("请输入第一个数字:"))
+d=int(input("请输入第一个数字:"))
+
+print(a+b-c*d)
 
 """
     计算矩形的面积和周长
@@ -57,9 +57,9 @@ print(int(a) + b)
 """
     输入1-127的ASCII码
 """
-# chr()将整数转换为字符
-# number = int(input("请输入数字:"))
-# print(chr(number))
+chr()将整数转换为字符
+number = int(input("请输入数字:"))
+print(chr(number))
 
 """
     3个人吃饭总共花费35.27美元，给15%的小费，每个人应该付多少
@@ -114,11 +114,11 @@ print(result)
 """
     判断是否是闰年(被400整除或能被4整除但不能被100整除）
 """
-# a = int(input('请输入年份:'))
-# if ((a % 400 == 0) or (a % 4 == 0 and a % 100 != 0)):
-#     print("%d是闰年" % a)
-# else:
-#     print("%d是平年" % a)
+a = int(input('请输入年份:'))
+if ((a % 400 == 0) or (a % 4 == 0 and a % 100 != 0)):
+    print("%d是闰年" % a)
+else:
+    print("%d是平年" % a)
 
 """
     邮箱 验证
